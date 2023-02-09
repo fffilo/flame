@@ -30,7 +30,11 @@ fi
 # Read stdin line by line.
 files=()
 while IFS= read line; do
-    if [ ! -f "$line" ]; then
+    if [ -z "$line" ]; then
+        continue
+    elif [ -d "$line" ]; then
+        continue
+    elif [ ! -f "$line" ]; then
         error_log "file does not exist $line"
     fi
 
