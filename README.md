@@ -1,7 +1,7 @@
 Flame
 =====
 
-Flame: creates mp3 audio files from stdin.
+Flame: creates mp3 audio files from list in stdin.
 
 ## Options
 

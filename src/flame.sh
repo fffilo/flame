@@ -2,7 +2,7 @@
 
 # Show help and exit.
 function show_help () {
-    echo "Flame: creates mp3 audio files from stdin."
+    echo "Flame: creates mp3 audio files from list in stdin."
     echo ""
     echo "https://github.com/fffilo/flame"
     echo ""
